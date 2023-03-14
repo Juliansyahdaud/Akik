@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sandi Morse</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="load"></div>
+    <div class="background"></div>
+    <div class="container">
+        <div class="item">
+            <h2 class="logo"><i class='bx bxl-xing'></i>Joulex</h2>
+            <div class="text-item">
+                <h2>Welcome! <br><span>
+                    My Website
+                </span></h2>
+                <p>I created this website to complete the task of analyzing information security and cryptography</p>
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Please input a text</h2>
+            <form>
+                <input type="text" id="plaintext" >
+            </form>
+            <button type="button" class="btn-en" onclick="encrypt()">Enkripsi</button>
+            <form>
+                <input type="text" id="ciphertext" readonly>
+            </form>
+        </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
